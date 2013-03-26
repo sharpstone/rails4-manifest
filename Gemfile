@@ -1,9 +1,11 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+ruby '1.9.3'
 gem 'rails', '4.0.0.beta1'
 
 gem 'pg'
+gem 'thin'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -40,4 +42,8 @@ gem 'jbuilder', '~> 1.0.1'
 group :heroku do
   gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
   gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
+end
+
+group :development do
+  gem 'foreman'
 end
