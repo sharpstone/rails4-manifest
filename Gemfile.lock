@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/ctshryock/rails3_serve_static_assets.git
-  revision: 377ff2f67b09c5fa18dfe7ffa48cdd8dd75085b6
+  revision: 266af95ea12320bb5d28c55db27f3d42357c698d
   specs:
     rails3_serve_static_assets (0.0.1)
 
