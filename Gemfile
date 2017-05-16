@@ -5,7 +5,6 @@ ruby '2.2.7'
 gem 'rails', '4.0.0'
 
 gem 'pg'
-gem 'thin'
 
 # Gems used only for assets and not required
 # in production environments by default.
